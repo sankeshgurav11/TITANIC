@@ -15,7 +15,7 @@ def predict_survival(d):
     return pred, prob
 
 # Streamlit UI components
-st.title("titani survival preiction")
+st.title("Titanic Survival Prediction")
 
 # Input fields for each parameter
 pclass = st.selectbox("Pclass", [1, 2, 3], index=2)
